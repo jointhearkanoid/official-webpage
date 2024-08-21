@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+# ArkanoidOS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+ArkanoidOS es una versión modificada de Windows diseñada para ofrecer una experiencia centrada en el usuario. Nuestro objetivo es desbloquear el máximo potencial de tu PC para tus tareas diarias y no tan diarias. ArkanoidOS es ligero, altamente personalizable, rápido, portable, rico en funciones y orientado al usuario final.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características
 
-## Expanding the ESLint configuration
+- **Ligero**: Optimizado para un rendimiento rápido y eficiente.
+- **Altamente personalizable**: Ajusta la apariencia y el comportamiento según tus necesidades.
+- **Portable**: Fácil de instalar y llevar contigo.
+- **Rico en funciones**: Incluye una amplia gama de herramientas y aplicaciones.
+- **Amplia en versiones**: Disponibilidad de múltiples versiones para diferentes necesidades.
+- **Orientado al usuario final**: Diseñado pensando en la facilidad de uso y la accesibilidad.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalación
 
-- Configure the top-level `parserOptions` property like this:
+1. Descarga la última versión de ArkanoidOS desde nuestro sitio web.
+2. Crea un medio de instalación (USB/DVD) utilizando una herramienta como Rufus.
+3. Arranca desde el medio de instalación y sigue las instrucciones en pantalla.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Uso
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Una vez instalado, puedes personalizar ArkanoidOS según tus preferencias. Consulta nuestra [documentación](#) para obtener guías detalladas sobre cómo aprovechar al máximo las características de ArkanoidOS.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Contribuir
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+¡Nos encantaría tu ayuda para mejorar ArkanoidOS! Si deseas contribuir, por favor sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
+3. Realiza tus cambios y haz commit (`git commit -am 'Añadir nueva característica'`).
+4. Haz push a la rama (`git push origin feature/nueva-caracteristica`).
+5. Abre un Pull Request.
+
+## Soporte
+
+Si tienes alguna pregunta o necesitas ayuda, por favor abre un [issue](#) en el repositorio o contacta con nosotros a través de nuestro [correo electrónico](mailto:soporte@arkanoidos.com).
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
