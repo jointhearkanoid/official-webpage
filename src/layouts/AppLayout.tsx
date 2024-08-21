@@ -6,7 +6,7 @@ export default function AppLayout() {
     <>
       <Header />
 
-      <main className="grid grid-cols-1 mx-auto lg:grid-cols-2">
+      <main className="grid grid-cols-1 lg:grid-cols-2">
         <Outlet />
       </main>
     </>
